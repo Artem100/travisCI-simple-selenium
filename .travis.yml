@@ -1,0 +1,8 @@
+language: python
+python: 3.8
+dist: xenial
+sudo: true
+script:
+    - pip install pipenv
+    - pipenv install --ignore-pipfile
+    - pipenv run pytestg
