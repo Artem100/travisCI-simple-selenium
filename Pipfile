@@ -6,7 +6,8 @@ name = "pypi"
 [packages]
 selenium = "*"
 pytest = "*"
-pytest-allure-adaptor = "*"
+allure-python-commons = "*"
+allure-pytest = "*"
 
 [dev-packages]
 
