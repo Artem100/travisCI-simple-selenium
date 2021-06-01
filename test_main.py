@@ -7,7 +7,7 @@ from selenium import webdriver
 def test_01():
     driver = webdriver.Firefox()
     driver.get("https://stepik.org/lesson/25969/step/12")
-    time.sleep(5)
+    time.sleep(7)
     textarea = driver.find_element_by_css_selector(".textarea")
     textarea.send_keys("get()")
     time.sleep(5)
